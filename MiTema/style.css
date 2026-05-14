@@ -1,0 +1,121 @@
+:root {
+    --color-principal: #ff4a00; /* Naranja mecánico */
+    --color-oscuro: #1a1a1a;    /* Gris neumático */
+    --color-claro: #f5f5f5;     /* Fondo claro */
+    --color-texto: #333333;     /* Texto general */
+    --fuente-principal: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    color: var(--color-texto);
+    background-color: var(--color-claro);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+.site-header {
+    background-color: var(--color-oscuro);
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid var(--color-principal);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.site-title a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-navigation li {
+    margin-left: 20px;
+}
+
+.main-navigation a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-navigation a:hover {
+    color: var(--color-principal);
+}
+
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.entry-card {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--color-principal);
+}
+
+.entry-title a {
+    color: var(--color-oscuro);
+}
+
+.entry-title a:hover {
+    color: var(--color-principal);
+}
+
+.btn-leer-mas {
+    display: inline-block;
+    background-color: var(--color-principal);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.btn-leer-mas:hover {
+    background-color: #e04100;
+    color: #fff;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.site-footer {
+    background-color: var(--color-oscuro);
+    color: #bbb;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
