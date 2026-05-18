@@ -62,7 +62,7 @@
             <?php dynamic_sidebar( 'sidebar-principal' ); ?>
         <?php else : ?>
             <h3><?php esc_html_e( 'Contacto Rápido', 'taller-mecanico' ); ?></h3>
-            <p>📍 Calle Mecánica, Nº 42</p>
+            <p>📍 Calle Examen, Nº 42</p>
             <p>📞 Teléfono: 900 123 456</p>
             <p>⏰ Lun - Vie: 8:00 - 18:00</p>
         <?php endif; ?>
